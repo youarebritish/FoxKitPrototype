@@ -1,1 +1,2 @@
 # FoxKit
+FoxKit is a Unity tool for importing, editing, and (eventually) exporting Fox Engine data formats. It's currently in "proof of concept" phase and not really useful for general use. At the moment, you can use it to import level data through the FoxKit>Import Block menu.

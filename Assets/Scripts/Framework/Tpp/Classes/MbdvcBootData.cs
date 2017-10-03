@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using FoxKit.Framework.Fox;
+using FoxTool.Fox.Types;
+using FoxTool.Fox.Containers;
+using FoxTool.Fox.Types.Structs;
+using UnityEngine;
+
+namespace FoxKit.Framework.Tpp.Classes
+{
+    public class MbdvcBootData : Data
+    {
+        [EntityProperty("uigFile", FoxDataType.FilePtr, FoxContainerType.StaticArray)]
+        public String UigFile;
+
+        [EntityProperty("rawFile", FoxDataType.FilePtr, FoxContainerType.StaticArray)]
+        public String RawFile;
+    }
+}

@@ -188,7 +188,7 @@ namespace FoxKit.Editor.Windows
                 new DataSetHandler(MakeEntityTypeTable(), unimplementedTypeTable, dispatcher),
                 new LuaScriptHandler(assetPath),
                 new ModelHandler(assetPath, dispatcher),
-                new LocatorArrayHandler(assetPath, dispatcher)
+                //new LocatorArrayHandler(assetPath, dispatcher)
             };
             return new FormatHandlerProvider(handlers);
         }
